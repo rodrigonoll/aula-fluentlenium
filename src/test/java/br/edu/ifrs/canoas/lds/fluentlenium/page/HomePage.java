@@ -16,11 +16,11 @@ public class HomePage  extends FluentPage{
     @FindBy(id = "link-tables")
     private FluentWebElement linkTable;
 
-    @FindBy(id = "link-datatable")
+    @FindBy(id = " ")
     private FluentWebElement linkDatatable;
 
     public void isAt() {
-        assertThat(window().title()).isEqualTo("AdminLTE 2 | Dashboard");
+        assertThat(window().title()).isEqualTo("AdminLTE 2 | ?");
     }
 
 }
