@@ -1,8 +1,8 @@
-package br.edu.ifrs.canoas.lds.fluentlenium.page;
+package br.edu.ifrs.canoas.lds.fluentlenium.test;
 
 
-import br.edu.ifrs.canoas.lds.fluentlenium.test.DatatablePage;
-import br.edu.ifrs.canoas.lds.fluentlenium.test.HomePage;
+import br.edu.ifrs.canoas.lds.fluentlenium.page.DatatablePage;
+import br.edu.ifrs.canoas.lds.fluentlenium.page.HomePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.fluentlenium.adapter.junit.FluentTest;
 import org.fluentlenium.configuration.FluentConfiguration;
